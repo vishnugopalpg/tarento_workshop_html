@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>HTML Training</title>
+        <style>
+            body {
+                background-color:white;
+            }
+            h2 {
+                color:darkblue;
+            }
+            header {
+                padding: 30px;
+                background-color: #041559;
+                text-align: center;
+                position: relative;
+                left: 0;
+                top: 0;
+                width: 100%;
+               
+            }
+            header h1 {
+                color: white;
+                font-size: 40px;
+            }
+            footer {
+                padding: 05px;
+                background-color: #041559;
+                color: white;
+                text-align: center;
+                position: relative;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+            }
+            #myclass{
+                background-color: rgb(204, 16, 16);
+                height: 300px;
+                width: 100%;
+            }
+            #myclass h2{
+                color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>C# Tutorials</h1>
+        </header>
+
+        <main>
+            
+            <section >
+                <h2>C# - Program Structure</h2>
+                <p>Before we study basic building blocks of the C# programming language, let us look at 
+                    a bare minimum C# program structure so that we can take it as a reference in upcoming chapters.
+                </p>
+                <h2>Creating Hello World Program</h2>
+                A C# program consists of the following parts −
+                <ul>
+                    <li>Namespace declaration</li>
+                    <li>A class</li>
+                    <li>Class methods</li>
+                    <li>Class attributes</li>
+                    <li>A Main method</li>
+                    <li>Statements and Expressions</li>
+                    <li>Comments</li>
+                </ul>
+            </section>
+            <section id="myclass">
+                <h2>Namespace declaration</h2>
+                <a href="https://www.w3schools.com/cs/"target="_blank"><img src="data:image/jpeg;base64,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"
+                 width="100%" height="200" alt="Namespaces"></a>
+                
+   
+            </section>
+            <section >
+                <h2>Compiling and Executing the Program</h2>
+                <p> 
+                    If you are using Visual Studio.Net for compiling and executing C# programs, take the following steps −
+                    <ol>
+                        <li>Start Visual Studio.</li>
+                        <li>On the menu bar, choose File -> New -> Project.</li>
+                        <li>Choose Visual C# from templates, and then choose Windows.</li>
+                        <li>Choose Console Application.</li>
+                        <li>Specify a name for your project and click OK button.</li>
+                        <li>This creates a new project in Solution Explorer.</li>
+                        <li>Write code in the Code Editor.</li>
+                        <li>Click the Run button or press F5 key to execute the project.
+                             A Command Prompt window appears that contains the line Hello World.</li>
+                    </ol>
+                </p>
+            </section>
+
+        </main>
+        <footer>
+            <p>Workshop2020 @ Tarento Technologies Pvt Ltd</p>
+           <address ALIGN="center"> 
+            No.97, 3rd Floor,<br>
+            Umiya Emporium, Hosur Main Road,<br>
+            Madiwala, Opposite Forum Mall,<br>
+            Bengaluru, Karnataka 560029
+           </address>
+           <address ALIGN="center">
+                <a href="mailto:tarento@tarento.com">Contact</a>
+           </address>
+        </footer>
+    </body>
+</html>

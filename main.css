@@ -1,0 +1,38 @@
+body {
+    background-color:white;
+}
+h2 {
+    color:darkblue;
+}
+header {
+    padding: 30px;
+    background-color: #041559;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+   
+}
+header h1 {
+    color: white;
+    font-size: 40px;
+}
+footer {
+    padding: 05px;
+    background-color: #041559;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+#myclass{
+    background-color: rgb(204, 16, 16);
+    height: 300px;
+    width: 100%;
+}
+#myclass h2{
+    color: white;
+}
